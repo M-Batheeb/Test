@@ -1,8 +1,8 @@
 **Project Idea: AI-Based Quran Memorization Plan Generator**
 
-## The project involves developing an AI model that analyzes data from students' previous Quran memorization plans. By using a large dataset of student performance, the model will create personalized memorization schedules tailored to each student's learning pace and performance history. The plan will dynamically adjust based on the student's progress and the performance of other students at the same level. 
+**The project involves developing an AI model that analyzes data from students' previous Quran memorization plans. By using a large dataset of student performance, the model will create personalized memorization schedules tailored to each student's learning pace and performance history. The plan will dynamically adjust based on the student's progress and the performance of other students at the same level.**
 
-#### There will be three types of outputs:
+There will be three types of outputs:
 1. **Memorization**: Assigning new recitation for memorization.
 2. **Minor revision**: Revising the parts closely related to the new memorization.
 3. **Major revision**: Periodic review of everything the student has memorized so far.
