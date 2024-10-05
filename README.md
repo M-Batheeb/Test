@@ -9,7 +9,7 @@ There will be three types of outputs:
 
 1- 
 
-``` Based on the structure provided, here's a suggestion for your project's title and aims: ```
+Based on the structure provided, here's a suggestion for your project's title and aims:
 
 ---
 
@@ -262,4 +262,4 @@ In the near future, the following tasks will be prioritized for completion:
    - **Task**: Develop a prototype of the user interface that will be used by teachers and students to input data and review memorization plans.
    - **Justification**: Early development of the user interface allows stakeholders to give feedback on usability and design, ensuring that the final system is user-friendly and meets the needs of both teachers and students.
 
-These tasks are prioritized because they address the most critical aspects of the project—data, model, and interface. Without completing these, subsequent tasks, such as full system integration and testing, cannot proceed.
+``` These tasks are prioritized because they address the most critical aspects of the project—data, model, and interface. Without completing these, subsequent tasks, such as full system integration and testing, cannot proceed. ```
