@@ -1,4 +1,8 @@
-**Project Idea: AI-Based Quran Memorization Plan Generator**
+
+```
+Project Idea: AI-Based Quran Memorization Plan Generator
+```
+
 
 **The project involves developing an AI model that analyzes data from students' previous Quran memorization plans. By using a large dataset of student performance, the model will create personalized memorization schedules tailored to each student's learning pace and performance history. The plan will dynamically adjust based on the student's progress and the performance of other students at the same level.**
 
