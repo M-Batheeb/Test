@@ -9,7 +9,7 @@ There will be three types of outputs:
 
 1- 
 
-```Based on the structure provided, here's a suggestion for your project's title and aims:```
+``` Based on the structure provided, here's a suggestion for your project's title and aims: ```
 
 ---
 
