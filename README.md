@@ -1,16 +1,25 @@
-The *Use Case Diagram* represents the interaction between two primary actors: the *User* and the *AI Model, within the context of an **AI-Based Quran Memorization Plan Generator*. Here is a brief description of each actor and their related use cases:
+The diagram you've shared appears to be an *Entity-Relationship Diagram (ERD)*. Here’s a brief description of its components:
 
 1. *User*:
-   - *Input Information*: The user provides input details such as memorization goals, schedule availability, and personal data.
-   - *View Memorization Plan*: The user views the generated Quran memorization plan tailored to their input.
-   - *Provide Feedback*: The user offers feedback based on their progress and experience with the memorization plan.
-   - *Track Progress*: The user can monitor their Quran memorization journey over time.
-   - *Update Profile*: The user can update their information, such as goals or availability, which could lead to adjustments in the memorization plan.
+   - Attributes: UserID, Name, Age, Email, MemorizationLevel, Availability.
+   - Relationships: 
+     - A *User* "Has" a *MemorizationPlan*.
+     - A *User* "Has" *Performance* records.
 
-2. *AI Model*:
-   - *Generate Memorization Plan*: Based on the user's input, the AI model generates a personalized Quran memorization plan.
-   - *Monitor User Performance*: The AI continuously tracks the user's performance based on feedback and progress.
-   - *Adapt Plan Based on Feedback*: The AI model updates or adapts the memorization plan according to the user’s feedback.
-   - *Schedule Revisions*: The AI model creates revision schedules to ensure the user retains memorized Quranic verses.
+2. *MemorizationPlan*:
+   - Attributes: PlanID, AssignedVerses, PlanDate, Status.
+   - Relationships: 
+     - A *MemorizationPlan* is "Assigned" to *Verses*.
+     - A *MemorizationPlan* is related to a *User*.
 
-The system aims to create a dynamic interaction between the user and the AI model, providing personalized plans, tracking progress, and adapting based on performance feedback.
+3. *Verse*:
+   - Attributes: VerseID, Chapter, VerseNumber, Text.
+   - Relationships:
+     - A *Verse* is "Given On" a *Performance* record.
+
+4. *Performance*:
+   - Attributes: PerformanceID, MemorizationSpeed, AccuracyScore, FeedbackDate.
+   - Relationships:
+     - A *Performance* is linked to a *User* and *Verse*.
+
+This ERD demonstrates the relationships between users, their memorization plans, verses, and performance evaluations in the Quran memorization application.
